@@ -16,4 +16,5 @@ source gpt0/bin/activate
 # Install the requirements by running:
 pip install -r requirements.txt
 
-
+# To clone the data source run:
+git clone git@github.com:NojoudAlshehri/LLMs-Attack-GPTZero.git
