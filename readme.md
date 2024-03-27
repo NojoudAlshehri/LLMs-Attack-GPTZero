@@ -17,4 +17,4 @@ source gpt0/bin/activate
 pip install -r requirements.txt
 
 # To clone the data source run:
-git clone git@github.com:NojoudAlshehri/LLMs-Attack-GPTZero.git
+git clone https://github.com/vivek3141/ghostbuster-data.git
