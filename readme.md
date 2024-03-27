@@ -1,6 +1,6 @@
 # Clone this repo by running 
 
-git clone git@github.com:NojoudAlshehri/LLMs-Attack-GPTZero.git
+git clone https://github.com/NojoudAlshehri/LLMs-Attack-GPTZero.git
 
 # Create a Python environment by running:
 python -m venv gpt0
