@@ -2,7 +2,7 @@ import os
 import openai
 
 # Initialize models with a valid API key
-openai.api_key = "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"
+openai.api_key = " "
 
 # Define the paths
 student_essay_path = "human"
