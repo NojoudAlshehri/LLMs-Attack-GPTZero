@@ -13,7 +13,7 @@ from collections import Counter
 from sklearn.metrics import accuracy_score, roc_auc_score, f1_score
 
 # Initialize models with a valid API key
-openai.api_key = "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"
+openai.api_key = " "
 FLAN_T5_MODEL_NAME = "google/flan-t5-base"
 
 flan_t5_tokenizer = T5Tokenizer.from_pretrained(FLAN_T5_MODEL_NAME)
