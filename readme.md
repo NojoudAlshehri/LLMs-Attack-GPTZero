@@ -18,3 +18,9 @@ pip install -r requirements.txt
 
 # To clone the data source run:
 git clone https://github.com/vivek3141/ghostbuster-data.git
+
+# Additional Comments
+A free version of DetectGPT is available here: https://github.com/BurhanUlTayyab/DetectGPT.git
+
+We modified the repo by adding our dataset to the repo and looping over all of them in the inference files. This was run on Google Colab as GPU was required.
+Our total code is packaged in the zipped file above.
