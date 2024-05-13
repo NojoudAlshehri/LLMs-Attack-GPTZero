@@ -1,4 +1,3 @@
-
 import sys
 import http.client
 import json
@@ -183,7 +182,6 @@ def evaluate_detection_evasion(essay):
             detection_result = response.json()["documents"][0]
             predicted_class = detection_result["predicted_class"]
                     
-            # Assuming 'ai' class probability is used for AUROC calculation.
             predicted_prob = detection_result["class_probabilities"]["ai"]
             return  {'ACC': predicted_prob}
             
